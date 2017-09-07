@@ -1,0 +1,220 @@
+html body{
+    /*font-family: "Arial Black";*/
+    font-family: "Microsoft YaHei";
+}
+.content_search{
+    width: 530px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -235px ;
+    /*display: none;*/
+    /*border: 1px solid red;*/
+}
+.logo{
+    width: 138px;
+    height: 51px;
+    margin: auto;
+    margin-bottom: 14px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.search_box{
+    width: 515px;
+    height: 35px;
+    padding-right: 5px ;
+    border: 1px solid #9bb538;
+    margin: auto;
+    /*overflow: hidden;*/
+    /*border-color: #9bb538 transparent #9bb538 #9bb538;*/
+}
+
+.search_text{
+    width: 450px;
+    height: 35px;
+    /*border: 1px solid;*/
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.search_btn{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    /*border: 1px solid red;*/
+    background: url("../images/search.png") no-repeat center center;
+    /*margin-right: 8px;*/
+    margin-top: 3px;
+    cursor: pointer;
+    float: right;
+}
+
+.content_detail{
+    width: 1000px;
+    margin: auto;
+    display: none;
+}
+.search_wrapper{
+    width: 1000px;
+    height: 130px;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+}
+.company{
+    width: 1000px;
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+.company_info{
+    width: 800px;
+    /*border: 1px solid red;*/
+    margin: auto;
+}
+table tr,td,th{
+    border: 1px solid #ccc;
+}
+table th{
+    width: 50%;
+    height: 40px;
+}
+table td{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+}
+/*.company .info_row{*/
+        /*margin: 10px 0;*/
+/*}*/
+/*.company .info_row label{*/
+    /*display: inline-block;*/
+    /*width: 350px;*/
+    /*!*border: 1px solid red;*!*/
+    /*text-align: right;*/
+    /*margin-right: 10px;*/
+/*}*/
+
+.company_img{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.company_info_pics{
+    /*border: 1px solid red;*/
+    margin:10px 0 30px 0;
+    overflow: hidden;
+}
+.company_info_pics div{
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid #BCBCBC;
+}
+.company_info_pics div img{
+    /*!*width: 100%;*!*/
+    /*height: 100%;*/
+    /*!*width: 100%;*!*/
+    /*vertical-align: middle;*/
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.window{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: hidden;
+
+}
+
+
+.content_box{
+    width: 800px;
+    height: 560px;
+    border: 1px solid #666;
+    background: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -280px 0 0 -400px;
+    overflow: hidden;
+
+}
+.content_box p{
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    margin: 0;
+}
+
+.window_close{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    float: right;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    font-size: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.company-pic{
+    width: 100%;
+    height: 535px;
+    /*border: 1px solid green;*/
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid red;*/
+}
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+    /*border: 1px solid green;*/
+}
+.swiper-slide img{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.gallery-top {
+    height: 80%;
+    width: 100%;
+}
+.gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    background: #BCBCBC;
+}
+.gallery-thumbs .swiper-slide {
+    width: 100px;
+    height: 100%;
+    opacity: 0.4;
+    border: 1px solid #9bb538;
+}
+
+.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}
